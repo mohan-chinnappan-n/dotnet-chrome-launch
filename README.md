@@ -1,4 +1,7 @@
-### Launching Chrome Browser Tabs in Ubuntu using dotnet #C code
+## Launching Chrome Browser Tabs in Ubuntu using dotnet #C code
+
+
+### Demo
 
 ![chrome dot net](./img/chrome-dotnet-1.gif)
 
@@ -10,7 +13,7 @@ $ dotnet --version
 
 ```
 
-## How to create this app
+### How to create this app
 
 ```
 $ dotnet new console -o hwapp
