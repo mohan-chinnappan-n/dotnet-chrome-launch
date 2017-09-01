@@ -10,7 +10,7 @@ $ dotnet --version
 
 ```
 
-## How to create this appe
+## How to create this app
 
 ```
 $ dotnet new console -o hwapp
