@@ -1,10 +1,30 @@
-### Demo showing opening Chrome Browser in Ubuntu using DotNet #C code
+### Launching Chrome Browser Tabs in Ubuntu using dotnet #C code
 
 ![chrome dot net](./img/chrome-dotnet-1.gif)
 
+### DotNet version used 
+
+``` 
+$ dotnet --version
+2.0.0
 
 
-### code
+### How to create this project
+
+```bash
+
+$ dotnet new conole -o hwapp
+
+
+```
+
+### Project file structure
+
+![project file structure](./img/prj-folder.png)
+
+```
+
+### code for Program.cs
 
 ```c#
 
@@ -31,13 +51,6 @@ namespace hwapp {
 }
 ```
 
-### DotNet version used 
-
-``` 
-$ dotnet --version
-2.0.0
-
-```
 ### How to change it to other Operating Systems
 
 - Change the variable chromeExeName to correct value
