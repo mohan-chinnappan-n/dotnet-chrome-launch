@@ -8,8 +8,9 @@
 $ dotnet --version
 2.0.0
 
+```
 
-### How to create this project
+
 
 ```
 $ dotnet new conole -o hwapp
