@@ -10,10 +10,10 @@ $ dotnet --version
 
 ```
 
-
+## How to create this appe
 
 ```
-$ dotnet new conole -o hwapp
+$ dotnet new console -o hwapp
 
 ```
 
