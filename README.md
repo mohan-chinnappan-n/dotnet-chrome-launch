@@ -56,3 +56,16 @@ namespace hwapp {
 ### How to change it to other Operating Systems
 
 - Change the variable chromeExeName to correct value
+
+In case of Windows you can find this from the registry as:
+
+```
+Examples:
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\chrome.exe
+
+Windows 7:  \Users\[you]\AppData\Local\Google\Chrome\Application\chrome.exe
+
+
+
+```
