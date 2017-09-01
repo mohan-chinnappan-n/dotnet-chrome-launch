@@ -11,10 +11,8 @@ $ dotnet --version
 
 ### How to create this project
 
-```bash
-
+```
 $ dotnet new conole -o hwapp
-
 
 ```
 
@@ -22,7 +20,7 @@ $ dotnet new conole -o hwapp
 
 ![project file structure](./img/prj-folder.png)
 
-```
+
 
 ### code for Program.cs
 
