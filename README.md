@@ -69,3 +69,49 @@ Windows 7:  \Users\[you]\AppData\Local\Google\Chrome\Application\chrome.exe
 
 
 ```
+
+### Sample
+
+```C#
+
+using System.Diagnostics;
+using System.Runtime;
+
+using System;
+
+namespace hwapp {
+    class Program {
+        static void Main(string[] args) {
+            
+            var osNameAndVersion = System.Runtime.InteropServices.RuntimeInformation.OSDescription;
+            Console.WriteLine(osNameAndVersion);
+
+            bool macOS = osNameAndVersion.Contains("Darwin");
+            bool WinOs = osNameAndVersion.Contains("Windows");
+            
+            // chrome exe name; this will different for Window and Mac
+            // here Linux specific chrome exe is usese
+            string chromeExeName = "google-chrome"; 
+            if (macOS) chromeExeName = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
+            if (WinOs) chromeExeName = "chrome.exe";
+            
+
+            // let us get url to lanuch in the chrome from the command line
+            if (args.Length >= 1) {
+                string url = args[0];
+                Console.WriteLine("Chrome Launch Tester");
+                Process.Start(chromeExeName, @url);
+            }
+            else {
+                Console.WriteLine("Please pass the url in the commandline parameter");
+            }
+        }
+    }
+}
+
+```
+
+
+#### Refenences
+
+1. [dotnet core](https://www.microsoft.com/net/core#macos)
