@@ -1,4 +1,4 @@
-## Launching Chrome Browser Tabs in Ubuntu using dotnet #C code
+## Launching Chrome Browser Tabs in Ubuntu and macOS using dotnet #C code
 
 
 ### Demo
@@ -113,7 +113,15 @@ namespace hwapp {
 
 #### macOS
 
+```bash
+$ dotnet --version
+2.0.0
+~/dotnet/chrome:
+$ uname -a
+Darwin mchinnappa-ltm1.internal.salesforce.com 16.7.0 Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64 x86_64
 
+
+```
 ![mac dotnet](./img/mac-dotnet.png)
 
 #### Refenences
