@@ -121,8 +121,22 @@ $ dotnet --version
 $ uname -a
 Darwin .... 16.7.0 Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64 x86_64
 
-
 ```
+
+
+#### .NET core roadmap
+
+## Ship Dates
+
+| Milestone                 | Release Date |
+|---------------------------|--------------|
+| .NET Core 2.0 & .NET Standard 2.0 | [Released on 2017/8/14](https://github.com/dotnet/core/issues/812), see [announcement](https://blogs.msdn.microsoft.com/dotnet/2017/08/14/announcing-net-core-2-0/) |
+| UWP 6.0 (implements .NET Standard 2.0) | Q4 2017 ([Win10 Fall Creators Update](https://www.microsoft.com/en-us/windows/upcoming-features)) |
+| .NET Core 2.1 Preview | Q4 2017 |
+| .NET Core 2.1 | Q1 2018 |
+
+
+
 ![mac dotnet](./img/mac-dotnet.png)
 
 #### Refenences
