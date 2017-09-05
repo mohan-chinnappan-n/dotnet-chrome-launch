@@ -124,9 +124,7 @@ Darwin .... 16.7.0 Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; r
 ```
 
 
-#### .NET core roadmap
-
-## Ship Dates
+#### .NET core roadmap and Ship Dates
 
 | Milestone                 | Release Date |
 |---------------------------|--------------|
