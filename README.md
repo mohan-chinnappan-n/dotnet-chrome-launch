@@ -137,6 +137,9 @@ Darwin .... 16.7.0 Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; r
 
 ![mac dotnet](./img/mac-dotnet.png)
 
+### .NET framework versions
+![.NET framework](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/DotNet.svg/600px-DotNet.svg.png)
+
 #### Refenences
 
 1. [dotnet core](https://www.microsoft.com/net/core#macos)
